@@ -1,0 +1,146 @@
+body {
+    background-color: black;
+}
+
+#dataContainer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
+#dataContainer a {
+    color: blue;
+    text-decoration: underline;
+}
+
+#dataContainer h2 {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#dataContainer p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+select{
+    width: 300px;
+    height: 20px;
+    overflow-y: auto;
+}
+
+#result{
+    background-color: white;
+    width: 50%;
+    float: right;
+    margin-right: 17%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #666;
+    font-size: large;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #b7c2ce;
+    color: #262626;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'ＭＳ Ｐゴシック', 'Hiragino Kaku Gothic ProN', sans-serif;
+  }
+
+  body {
+    margin: 0;
+    padding-left: 20px;
+    font-family: 'ＭＳ Ｐゴシック', 'Hiragino Kaku Gothic ProN', sans-serif;
+    color: #262626;
+    background-color: #b7c2ce;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  
+  #xmatch {
+    background-color: #98ff98;
+    border: 2px solid black;
+    border: 2px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #xmatch:hover {
+    background-color: #7cc57c;
+  }
+
+  #fes {
+    background-color: #c33a56;
+    border: 2px solid black;
+    border: 2px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #fes:hover {
+    background-color: #b92946;
+  }
+
+  #weaponDropdown {
+    width: 250px;
+    height: 40px;
+  }
+  #seasonDropdown {
+    width: 250px;
+    height: 40px;
+  }
+  #fesDropdown {
+    width: 250px;
+    height: 40px;
+  }
+  #weaponDropdown2 {
+    width: 250px;
+    height: 40px;
+  }
+  #ruleDropdown {
+    width: 250px;
+    height: 40px;
+  }
+  #campDropdown {
+    width: 250px;
+    height: 40px;
+  }
+
+  #page1{
+    position: fixed;
+  }
+
+  @media (min-width: 1231px) {
+    #hamburger-menu {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1230px) {
+    #x-match-button, #fes-button, #dropdown {
+      display: none;
+    }
+  }
